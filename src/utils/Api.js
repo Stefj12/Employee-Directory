@@ -1,5 +1,6 @@
-import axios from "axios";
+import axios from "axios"
 
+// eslint-disable-next-line
 export default{ 
     getUsers:function(){    
 

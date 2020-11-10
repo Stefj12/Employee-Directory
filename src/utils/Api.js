@@ -1,9 +1,8 @@
-import axios from "axios"
-
+import axios from "axios";
 // eslint-disable-next-line
-export default{ 
-    getUsers:function(){    
-
-        return axios.get("https://randomuser.me/api/?results=200&nat=us");
-    }
+export default {
+  // Gets all users
+  getUsers: function() {
+    return axios.get("https://randomuser.me/api/?results=200&nat=us");
+  }
 };

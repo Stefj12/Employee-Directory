@@ -1,17 +1,15 @@
 .datatable .col {
     cursor: pointer;
-    background-color:slategray;
-    color: white;
-}
-
-.datatable .col .pointer:after {
+  }
+  
+  .datatable .col .pointer:after {
     font-size: 80%;
     content: "";
     margin-right: 18px;
-}
-
-.datatable .col .pointer:hover:after {
+  }
+  
+  .datatable .col .pointer:hover:after {
     font-size: 80%;
     content: "🔻";
     margin-right: 0;
-}
+  }

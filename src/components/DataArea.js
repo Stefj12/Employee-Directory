@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import DataTable from "./DataTable.js";
 import Nav from "./Nav";
-import API from "../utils/API.js";
+// import API from "../utils/API.js";
 import "../styles/DataArea.css";
 
 export default class DataArea extends Component {
@@ -80,12 +80,12 @@ export default class DataArea extends Component {
   }
 
   componentDidMount() {
-    API.getUsers().then(results => {
-      this.setState({
-        users: results.data.results,
-        filteredUsers: results.data.results
-      });
-    });
+    // API.getUsers().then(results => {
+    //   this.setState({
+    //     users: results.data.results,
+    //     filteredUsers: results.data.results
+    //   });
+    // });
   }
 
   render() {
